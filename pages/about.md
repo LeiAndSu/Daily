@@ -10,8 +10,4 @@ permalink: /about.html
 
 你可以通过以下方式联系作者
 
-QQ: 973507832
-
-Email: <a href="mailto:syz19980212@163.com">syz19980212@163.com</a>
-
-Github: [sakura-su](https://github.com/sakura-su)
+Github: [LeiAndSu](https://github.com/LeiAndSu)
