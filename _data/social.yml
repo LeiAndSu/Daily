@@ -1,0 +1,5 @@
+valine_comment:
+  enable: false
+  leancloud_appid: 
+  leancloud_appkey: 
+  placeholder: 说点什么...
