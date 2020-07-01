@@ -58,4 +58,17 @@ layout: default
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
+
+  <div class="pagination">
+    {% if page.previous %}
+      <a class="cm-l" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"><img src="/theme/left.svg" style="height:28px"> {{ page.previous.title }}</a>
+    {% else %}
+      <span class="cm-l">没有上一篇</span>
+    {% endif %}
+    {% if page.next %}
+      <a class="cm-r" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}">{{ page.next.title }} <img src="/theme/right.svg" style="height:28px"></a>
+    {% else %}
+      <span class="cm-r">没有下一篇</span>
+    {% endif %}
+    </div>
 </article>
